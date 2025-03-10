@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import appwriteService from "../appwrite/config";
-import {Container, PostCard} from '../components'
+import {Container, LandingPage, PostCard} from '../components'
 
 function Home() {
     const [posts, setPosts] = useState([])
@@ -29,6 +29,8 @@ function Home() {
         )
     }
     return (
+        <>
+        <LandingPage />
         <div className='w-full py-8'>
             <Container>
                 <div className='flex flex-wrap'>
@@ -40,6 +42,7 @@ function Home() {
                 </div>
             </Container>
         </div>
+        </>
     )
 }
 

@@ -12,6 +12,7 @@ import AuthLayout from './AuthLayout';
 import Login from "./Login";
 import PostForm from './post-form/PostForm';
 import RTE from './RTE.jsx'
+import LandingPage from "./Landingpage.jsx";
 
 export {
     Header ,
@@ -28,5 +29,5 @@ export {
     Login,
     PostForm,
     RTE,
-    
+    LandingPage
 }
